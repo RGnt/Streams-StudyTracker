@@ -1,124 +1,141 @@
 {
-    "Sections": [
-      {
-        "SectionName": "First Section",
-        "Type": "Lesson",
-        "Parts": [
-          {
-            "index": 0,
-            "type": "video",
-            "name": "Python Developer in 2020: Zero to Mastery",
-            "score": 3.75,
-            "isComplete": false,
-            "material": [
-              {"type": "link", "content": "https://"}
-            ]
-          },
-          {
-            "index": 1,
-            "name": "Course Outline",
-            "score": 5.98,
-            "isComplete": false,
-            "material": []
-          },
-          {
-            "index": 2,
-            "name": "Join Our Online Classroom",
-            "score": 2.5,
-            "isComplete": false,
-            "material": []
-          },
-          {
-            "index": 3,
-            "name": "Exercise: Meet The Community",
-            "score": 5.5,
-            "isComplete": false,
-            "material": []
-          },
-          {
-            "index": 4,
-            "name": "How-to's: Speed up videos, Downloading videos, Subtitles",
-            "score": 4,
-            "isComplete": false,
-            "material": []
-          }
-        ]
-      },
-      {
-        "SectionName": "Python Introduction",
-        "Parts": [
-          {
-            "index": 0,
-            "name": "What Is A Programming Language",
-            "score": 6.44,
-            "isComplete": false,
-            "material": []
-          },
-          {
-            "index": 1,
-            "name": "Python Interpreter",
-            "score": 7.05,
-            "isComplete": false,
-            "material": []
-          },
-          {
-            "index": 2,
-            "name": "How To Run Python Code",
-            "score": 4.55,
-            "isComplete": false,
-            "material": []
-          },
-          {
-            "index": 3,
-            "name": "Note: Jumpiont To Developer Environment",
-            "score": 2,
-            "isComplete": false,
-            "material": []
-          },
-          {
-            "index": 4,
-            "name": "Our First Python Program",
-            "score": 7.72,
-            "isComplete": false,
-            "material": []
-          },
-          {
-            "index": 5,
-            "name": "Python 2 vs Python 3",
-            "score": 6.7,
-            "isComplete": false,
-            "material": []
-          },
-          {
-            "index": 6,
-            "name": "Why So Many Languages",
-            "score": 4.24,
-            "isComplete": false,
-            "material": []
-          },
-          {
-            "index": 7,
-            "name": "Exercise: How Does Python Work",
-            "score": 2.06,
-            "isComplete": false,
-            "material": []
-          },
-          {
-            "index": 8,
-            "name": "ZTM Python Cheat Sheet",
-            "score": 1,
-            "isComplete": false,
-            "material": []
-          },
-          {
-            "index": 9,
-            "name": "Python Developer Monthly",
-            "score": 1,
-            "isComplete": false,
-            "material": []
-          }
-        ]
-      }
-    ]
-  }
-  
+  "Sections": [
+    {
+      "SectionName": "First Section",
+      "guid": "8c220702-2525-40c8-baad-12af602b2904",
+      "Type": "Lesson",
+      "Parts": [
+        {
+          "index": 0,
+          "type": "video",
+          "name": "Python Developer in 2020: Zero to Mastery",
+          "score": 3.75,
+          "isComplete": false,
+          "material": [
+            { "type": "link", "content": "https://" },
+            { "type": "repository", "content": "https://github.org" }
+          ]
+        },
+        {
+          "index": 1,
+          "type": "video",
+          "name": "Course Outline",
+          "score": 5.98,
+          "isComplete": true,
+          "material": []
+        },
+        {
+          "index": 2,
+          "type": "exercise",
+          "name": "Join Our Online Classroom",
+          "score": 2.5,
+          "isComplete": false,
+          "material": []
+        },
+        {
+          "index": 3,
+          "type": "exercise",
+          "name": "Exercise: Meet The Community",
+          "score": 5.5,
+          "isComplete": true,
+          "material": []
+        },
+        {
+          "index": 4,
+          "type": "exercise",
+          "name": "How-to's: Speed up videos, Downloading videos, Subtitles",
+          "score": 4,
+          "isComplete": false,
+          "material": []
+        }
+      ]
+    },
+    {
+      "SectionName": "Python Introduction",
+      "guid": "8c220703-2525-40c8-baad-12af602b2904",
+      "type": "Lesson",
+      "Parts": [
+        {
+          "index": 0,
+          "type": "video",
+          "name": "What Is A Programming Language",
+          "score": 6.44,
+          "isComplete": false,
+          "material": []
+        },
+        {
+          "index": 1,
+          "type": "video",
+          "name": "Python Interpreter",
+          "score": 7.05,
+          "isComplete": true,
+          "material": []
+        },
+        {
+          "index": 2,
+          "type": "video",
+          "name": "How To Run Python Code",
+          "score": 4.55,
+          "isComplete": false,
+          "material": []
+        },
+        {
+          "index": 3,
+          "type": "note",
+          "name": "Note: Jumping To Developer Environment",
+          "score": 2,
+          "isComplete": true,
+          "material": []
+        },
+        {
+          "index": 4,
+          "type": "video",
+          "name": "Our First Python Program",
+          "score": 7.72,
+          "isComplete": false,
+          "material": []
+        },
+        {
+          "index": 5,
+          "type": "video",
+          "name": "Python 2 vs Python 3",
+          "score": 6.7,
+          "isComplete": false,
+          "material": []
+        },
+        {
+          "index": 6,
+          "type": "video",
+          "name": "Why So Many Languages",
+          "score": 4.24,
+          "isComplete": false,
+          "material": []
+        },
+        {
+          "index": 7,
+          "type": "video",
+          "name": "Exercise: How Does Python Work",
+          "score": 2.06,
+          "isComplete": false,
+          "material": []
+        },
+        {
+          "index": 8,
+          "type": "article",
+          "name": "ZTM Python Cheat Sheet",
+          "score": 1,
+          "isComplete": false,
+          "material": []
+        },
+        {
+          "index": 9,
+          "type": "article",
+          "name": "Python Developer Monthly",
+          "score": 1,
+          "isComplete": false,
+          "material": []
+        }
+      ]
+    }
+  ]
+}
