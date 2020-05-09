@@ -1,20 +1,27 @@
 import React, { useEffect } from "react";
 import ReactDOM from "react-dom";
-import { Provider } from "react-redux";
+import { Provider, useSelector, useDispatch } from "react-redux";
 import store from "./redux/store";
-import { getSections } from "./api/sectionapi";
+import { fetchSections } from "./redux/SectionSlice";
+import SectionCard from "./components/SectionPage/SectionCard";
 
-function App(props) {
+const App = (props) => {
+  const sections = useSelector((state) => state.section.data);
+  const dispatch = useDispatch();
+
+
   useEffect(() => {
-    getSections();
+    dispatch(fetchSections());
   }, []);
 
   return (
     <div>
-      <h1 style={{ fontSize: "120px" }}>Hello</h1>
+      {sections.map((section) => {
+        return <SectionCard SectionName={section.SectionName} parts={section.Parts}/>
+      })}
     </div>
   );
-}
+};
 
 ReactDOM.render(
   <Provider store={store}>
